@@ -1,10 +1,9 @@
 {
   "name": "bdo-scraper",
-  "version": "2.2.4",
-  "description": "A scraper for BDOCodex.com and BDDatabase.net.",
+  "version": "3.0.0",
+  "description": "A scraper for BDOCodex.com.",
   "main": "src/index.js",
   "scripts": {
-    "test": "node tests/index.js",
     "start": "node src/index.js"
   },
   "keywords": [
@@ -13,6 +12,9 @@
     "bdo"
   ],
   "author": "Marcelo Perrella",
+  "contributors": [
+    "Eiji Uema <eijiuema@gmail.com> (https://eijiuema.github.io/)"
+  ],
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",

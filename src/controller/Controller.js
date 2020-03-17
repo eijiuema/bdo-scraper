@@ -3,7 +3,7 @@ class Controller {
         this._id   = id
         this._lang = lang
         this._type = type
-        this._base = 'https://bddatabase.net/'
+        this._base = 'https://bdocodex.com/'
     }
 
     /**

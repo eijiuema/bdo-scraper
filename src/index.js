@@ -24,7 +24,7 @@ const load = async (id, lang, type) => {
     const html = await request(uri)
     const $    = cheerio.load(html)
 
-    if ($(`#item_info_row`).children().length)
+    if ($(`.item_info`).children().length)
         return [$, uri]
     return [null]
 }
