@@ -9,12 +9,10 @@ BDOScraper is a web scraper developed for [BDDatabase](https://bddatabase.net/).
     - [Scraping Pages](#scraping-pages)
     - [Searches](#searches)
 
-## What changed from v1 to v2
-- **v2 is not compatible with v1**
-- Dropped support for BDOCodex
-- Simplified API
-- Added support for querying recipes
-- Searches are now supported
+## What changed from v2 to v3
+- **v2 is not compatible with v3**
+- Added supporet to BDOCodex
+- Dropped support for BDODatabase
 
 ## Bug Report
 If you find a bug, such as an item with incorrect data (different from what the web page shows), please open an issue.
