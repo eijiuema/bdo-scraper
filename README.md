@@ -1,31 +1,21 @@
 # BDO Scraper
-BDOScraper is a web scraper developed for [BDDatabase](https://bddatabase.net/). It used to support [BDOCodex](http://bdocodex.com/) previously. Currently supports the english language, and portuguese partially.
+BDOScraper is a web scraper developed for [BDDatabase](https://bddatabase.net/). The original fork dropped the support for [BDOCodex](http://bdocodex.com/) on v2. This fork does the opposite, it readds support for BDOCodex and drops the support for BDDatabase.
 
-- [BDO Scraper](#bdo-scraper)
-  - [What changed from v1 to v2](#what-changed-from-v1-to-v2)
-  - [Bug Report](#bug-report)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Scraping Pages](#scraping-pages)
-    - [Searches](#searches)
-
-## What changed from v1 to v2
-- **v2 is not compatible with v1**
-- Dropped support for BDOCodex
-- Simplified API
-- Added support for querying recipes
-- Searches are now supported
+## What changed from v2 to v3
+- **v2 is not compatible with v3**
+- Added support for BDOCodex
+- Dropped support for BDODatabase
 
 ## Bug Report
 If you find a bug, such as an item with incorrect data (different from what the web page shows), please open an issue.
 
 ## Installation
 ```bash
-npm install bdo-scraper
+npm install git+https://git@github.com/eijiuema/bdo-scraper.git
 ```
 
 ## Usage
-**You can read more about the project by reading the [Docs](https://github.com/marceloclp/bdo-scraper/wiki).**
+**You can read more about the project by reading the [Docs](https://github.com/eijiuema/bdo-scraper/wiki).**
 
 ### Scraping Pages
 Scraping a page is as simple as importing the correct entity scraper and calling the function.
