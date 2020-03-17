@@ -212,7 +212,7 @@ class Parser {
     }
 
     getMaterialGroup($ = this.$) {
-        const node  = $('.smallertext.hundredProz > tbody > tr:last-child > td')
+        const node  = $('.insider > table > tbody > tr:last-child > td')
         const links = node.children('a')
         const imgs  = node.find('img')
         return links.map((i, elem) => ({

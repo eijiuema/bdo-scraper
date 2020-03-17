@@ -1,6 +1,6 @@
 {
   "name": "bdo-scraper",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A scraper for BDOCodex.com.",
   "main": "src/index.js",
   "scripts": {
